@@ -7,7 +7,7 @@ const Product = () => {
   const { id } = useParams();
 
   //5 - carregamento de dados
-  const url = "http://localhost:3000/products/" + id;
+  const url = "http://localhost:5173/products/" + id;
 
   const { data: product, loading, error } = useFetch(url);
 
